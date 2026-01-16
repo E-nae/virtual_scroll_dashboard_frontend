@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Server, Zap, Coffee } from 'lucide-react';
 
-const API_URL = process.env.NEXT_PUBLIC_API_PATH || 'http://localhost:4000';
+const API_URL = process.env.NEXT_PUBLIC_SERVER_ENDPOINT || 'http://localhost:4000';
 
 export default function ServerAwakeGuard({ children }: { children: React.ReactNode }) {
   const [isAwake, setIsAwake] = useState(false);
