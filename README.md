@@ -64,7 +64,7 @@ graph LR
     DB -->|JSON Data| NodeServer
     NodeServer -->|Filtered JSON| Client
     Client -->|Virtual Render| User
-
+```
 
 ### Getting Started
 1. Installation & Setup
