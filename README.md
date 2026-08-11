@@ -72,12 +72,10 @@ graph LR
 Bash
 
 # 1. Frontend Setup (Port 3000)
-cd client
 pnpm install
 pnpm run dev
 
 # 2. Backend Setup (Port 4000)
-cd server
 pnpm install
 pnpm start
 
