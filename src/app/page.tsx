@@ -3,8 +3,8 @@ import Dashboard from '@/components/Dashboard';
 
 export default function Page() {
   return (
-    <main className="p-8 min-h-screen bg-slate-50/50">
-      <Suspense fallback={<div className="p-8">Loading Dashboard Interface...</div>}>
+    <main className="min-h-screen px-4 py-10 sm:px-8 sm:py-14">
+      <Suspense fallback={<p className="mx-auto max-w-[1080px] text-ink-soft">불러오는 중…</p>}>
         <Dashboard />
       </Suspense>
     </main>
